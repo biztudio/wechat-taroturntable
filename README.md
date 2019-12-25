@@ -29,3 +29,13 @@ const awardsList = [
 //buttonTitle 缺省值是'小激励'
 <Luckyturntable awards={awardsList} buttonTitle='小鼓励' />
 ```
+---
+
+Props
+
+| 名称  | 类型 | 说明 |
+| ---------- | ------------- | ------------- |
+| awards  | 对象数组  | 奖项设置  |
+| buttonTitle  | string  | 抽奖按钮的文字，默认值是“小激励”  |
+
+
