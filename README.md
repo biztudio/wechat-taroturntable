@@ -1,7 +1,7 @@
 # wechat-taroturntable
 基于Taro的微信小程序抽奖转盘
 
-![demo 001](./demo.png)
+![demo 001](./demo.PNG)
 
 本组件的思路源自[“用微信小程序开发的Canvas绘制可配置的转盘抽奖”](https://github.com/givebest/wechat-turntalbe-canvas).
 
