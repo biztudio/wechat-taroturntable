@@ -5,28 +5,36 @@
   "license": "MIT",
   "main": "src/index.js",
   "description": "基于 Taro 的微信小程序抽奖转盘物料组件",
-  "keywords": ["taro","turntable","wechat"],
+  "keywords": [
+    "taro",
+    "turntable",
+    "wechat"
+  ],
+  "templateInfo": {
+    "name": "default",
+    "typescript": false,
+    "css": "sass"
+  },
   "scripts": {
-    "build":"taro build --ui",
+    "build": "taro build --ui",
+    "build:component": "cross-env TARO_BUILD_TYPE=component taro build --ui",
     "publish": "npm publish",
-    "unpublish":"npm unpublish wechat-taroturntable --force"
+    "unpublish": "npm unpublish wechat-taroturntable --force"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/biztudio/wechat-taroturntable.git"
+    "type": "git",
+    "url": "https://github.com/biztudio/wechat-taroturntable.git"
   },
   "devDependencies": {
     "@tarojs/async-await": "^1.3.31",
     "@tarojs/components": "1.3.31",
     "@tarojs/components-qa": "1.3.31",
-    "@tarojs/taro": "1.3.31",
-    "@tarojs/taro-weapp": "1.3.31",
-    "nerv-devtools": "^1.5.5",
-    "nervjs": "^1.5.5",
     "@tarojs/plugin-babel": "1.3.31",
     "@tarojs/plugin-csso": "1.3.31",
     "@tarojs/plugin-sass": "1.3.31",
     "@tarojs/plugin-uglifyjs": "1.3.31",
+    "@tarojs/taro": "1.3.31",
+    "@tarojs/taro-weapp": "1.3.31",
     "@tarojs/webpack-runner": "1.3.31",
     "@types/react": "^16.9.17",
     "@types/webpack-env": "^1.13.6",
@@ -35,6 +43,9 @@
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
     "babel-plugin-transform-jsx-stylesheet": "^0.6.5",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "^1.6.1"
+    "babel-preset-env": "^1.6.1",
+    "cross-env": "^6.0.3",
+    "nerv-devtools": "^1.5.5",
+    "nervjs": "^1.5.5"
   }
 }
