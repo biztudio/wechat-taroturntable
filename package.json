@@ -1,6 +1,6 @@
 {
   "name": "wechat-taroturntable",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "author": "'Yang SHEN<'bizbetter@outlook.com'>",
   "license": "MIT",
   "main": "src/index.js",
